@@ -3,7 +3,7 @@
 
 return [
     "models" => [
-        "user" => App\Models\User::class,
+        "user" => g4t\FilamentAccessControl\Models\User::class,
         "role" => Spatie\Permission\Models\Role::class,
         "permission" => Spatie\Permission\Models\Permission::class,
     ],
