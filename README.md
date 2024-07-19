@@ -1,13 +1,7 @@
 # Filament Access Control
 
-[![GitHub Workflow Status](https://github.com/g4t/filament-access-control/workflows/Run%20tests/badge.svg)](https://github.com/g4t/filament-access-control/actions)
-[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
-
-[![Packagist](https://img.shields.io/packagist/v/g4t/filament-access-control.svg)](https://packagist.org/packages/g4t/filament-access-control)
-[![Packagist](https://poser.pugx.org/g4t/filament-access-control/d/total.svg)](https://packagist.org/packages/g4t/filament-access-control)
-[![Packagist](https://img.shields.io/packagist/l/g4t/filament-access-control.svg)](https://packagist.org/packages/g4t/filament-access-control)
-
-Package description: CHANGE ME
+This library provides a comprehensive solution for managing users, roles, and permissions within FilamentPHP.
+It simplifies the process of setting up access control, allowing developers to easily integrate robust authorization features into their FilamentPHP applications.
 
 ## Installation
 
@@ -22,19 +16,15 @@ composer require g4t/filament-access-control
 php artisan vendor:publish --provider="g4t\FilamentAccessControl\ServiceProvider"
 ```
 
-## Usage
+## Configuration
+After publishing the files, you will find a configuration file named g4t-filament-access-control.php in the config directory.
+You can modify the settings in this file to fit the needs of your project.
 
-CHANGE ME
 
 ## Security
-
 If you discover any security related issues, please email hussein4alaa@gmail.com
 instead of using the issue tracker.
 
 ## Credits
-
-- [HusseinAlaa](https://github.com/g4t/filament-access-control)
-- [All contributors](https://github.com/g4t/filament-access-control/graphs/contributors)
-
-This package is bootstrapped with the help of
-[melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator).
+- [HusseinAlaa](https://linkedin.com/in/hussein4alaa)
+- [All contributors](https://github.com/hussein4alaa/filament-g4t-access-control/graphs/contributors)
