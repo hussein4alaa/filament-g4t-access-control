@@ -3,6 +3,8 @@
 This library provides a comprehensive solution for managing users, roles, and permissions within FilamentPHP.
 It simplifies the process of setting up access control, allowing developers to easily integrate robust authorization features into their FilamentPHP applications.
 
+![Laravel G4T Filament Access Control](https://github.com/hussein4alaa/filament-g4t-access-control/blob/main/banner.png)
+
 ## Installation
 
 Install via composer
