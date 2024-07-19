@@ -1,0 +1,47 @@
+{
+  "name": "g4t/filament-access-control",
+  "description": "A filament access control",
+  "license": "MIT",
+  "keywords": [
+    "filament",
+    "access",
+    "control"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "HusseinAlaa",
+      "email": "hussein4alaa@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "spatie/laravel-permission": "^5.5",
+    "blade-ui-kit/blade-heroicons": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "g4t\\FilamentAccessControl\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "g4t\\FilamentAccessControl\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "g4t\\FilamentAccessControl\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
