@@ -18,6 +18,13 @@ composer require g4t/filament-access-control
 php artisan vendor:publish --provider="g4t\FilamentAccessControl\ServiceProvider"
 ```
 
+### Run Migration command
+
+```bash
+php artisan migrate
+```
+
+
 ## Configuration
 After publishing the files, you will find a configuration file named g4t-filament-access-control.php in the config directory.
 You can modify the settings in this file to fit the needs of your project.

@@ -6,6 +6,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     const CONFIG_PATH = __DIR__ . '/config/g4t-filament-access-control.php';
     const RESOURCE_PATH = __DIR__ . '/Resources';
+    const MIGRATIONS_PATH = __DIR__ . '/migrations';
 
     public function boot()
     {
@@ -15,6 +16,10 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
         $this->publishes([
             self::RESOURCE_PATH => base_path('app/Filament/Resources'),
+        ], 'resources');
+
+        $this->publishes([
+            self::MIGRATIONS_PATH => base_path('database/migrations'),
         ], 'resources');
 
     }
